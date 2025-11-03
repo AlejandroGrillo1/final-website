@@ -34,7 +34,7 @@ img {
 }
 
 img:hover {
-  transform: rotate(-50deg) scale(1.67); 
+  transform: rotate(-180deg) scale(20); 
 }
 
 h1, h2, h3 {
