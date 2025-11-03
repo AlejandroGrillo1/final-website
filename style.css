@@ -5,7 +5,6 @@ body {
   background: #fffbe6; 
   color: #333;
 }
-
 nav {
   margin-bottom: 25px;
   background-color: #ffe066;
@@ -18,7 +17,7 @@ nav a {
   text-decoration: none;
   color: #ff4d6d; 
   font-weight: bold;
-  margin: 0 15px;
+  margin: 0 20px;
   transition: transform 0.2s, color 0.2s; 
 }
 
@@ -27,7 +26,6 @@ nav a:hover {
   color: #4d79ff;
   transform: scale(1.2); 
 }
-
 img {
   border-radius: 50%; 
   margin: 25px 0;
@@ -36,7 +34,7 @@ img {
 }
 
 img:hover {
-  transform: rotate(-10deg) scale(1.05); 
+  transform: rotate(-50deg) scale(1.67); 
 }
 
 h1, h2, h3 {
