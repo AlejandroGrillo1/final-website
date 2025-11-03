@@ -1,14 +1,14 @@
 body {
-  font-family: 'Comic Sans MS', Arial, sans-serif; /* fun font */
+  font-family: 'Comic Sans MS', Arial, sans-serif; 
   text-align: center;
   padding: 30px;
-  background: #fffbe6; /* soft creamy background */
+  background: #fffbe6; 
   color: #333;
 }
 
 nav {
   margin-bottom: 25px;
-  background-color: #ffe066; /* cheerful nav background */
+  background-color: #ffe066;
   padding: 10px;
   border-radius: 15px;
   box-shadow: 2px 2px 5px #ccc;
@@ -16,32 +16,32 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #ff4d6d; /* bright playful red */
+  color: #ff4d6d; 
   font-weight: bold;
   margin: 0 15px;
-  transition: transform 0.2s, color 0.2s; /* smooth hover */
+  transition: transform 0.2s, color 0.2s; 
 }
 
 nav a:hover {
   text-decoration: underline;
-  color: #4d79ff; /* fun color switch on hover */
-  transform: scale(1.2); /* makes links pop a little */
+  color: #4d79ff;
+  transform: scale(1.2); 
 }
 
 img {
-  border-radius: 50%; /* make images circular for fun */
+  border-radius: 50%; 
   margin: 25px 0;
   width: 300px;
   transition: transform 0.3s;
 }
 
 img:hover {
-  transform: rotate(-10deg) scale(1.05); /* wiggly fun effect */
+  transform: rotate(-10deg) scale(1.05); 
 }
 
 h1, h2, h3 {
   font-family: 'Comic Sans MS', Arial, sans-serif;
-  color: #ff6600; /* bright headings */
+  color: #ff6600; 
 }
 
 p {
