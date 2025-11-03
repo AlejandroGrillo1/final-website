@@ -1,26 +1,50 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Comic Sans MS', Arial, sans-serif; /* fun font */
   text-align: center;
   padding: 30px;
-  background-color: #f9f9f9;
+  background: #fffbe6; /* soft creamy background */
+  color: #333;
 }
 
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  background-color: #ffe066; /* cheerful nav background */
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #ccc;
 }
 
 nav a {
   text-decoration: none;
-  color: blue;
+  color: #ff4d6d; /* bright playful red */
   font-weight: bold;
-  margin: 0 10px;
+  margin: 0 15px;
+  transition: transform 0.2s, color 0.2s; /* smooth hover */
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: #4d79ff; /* fun color switch on hover */
+  transform: scale(1.2); /* makes links pop a little */
 }
 
 img {
-  border-radius: 10px;
-  margin: 20px 0;
+  border-radius: 50%; /* make images circular for fun */
+  margin: 25px 0;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: rotate(-10deg) scale(1.05); /* wiggly fun effect */
+}
+
+h1, h2, h3 {
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  color: #ff6600; /* bright headings */
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.1em;
 }
